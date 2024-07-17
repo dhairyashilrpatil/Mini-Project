@@ -1,0 +1,311 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://lh3.googleusercontent.com/p/AF1QipMKn7kwIUquGYzOIkB6sIo62UjkU-kXm9thrFCr=s1360-w1360-h1020");
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-attachment: fixed; /* Ensure the background image remains fixed as the content scrolls */
+  background-position: center; /* Center the background image */
+  background-size: cover; /* Fit the background image to the container without cropping */
+}
+
+header {
+  background-color: rgb(98, 30, 30);
+  color: #fff;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*h1 {
+  font-size: 2em;
+  font-weight: bolder;
+  transition: all 0.5s ease-in-out;
+  color: rgb(250, 250, 59);
+}
+*/
+.list li {
+  padding: 8px;
+  background: linear-gradient(135deg, #ffe23d, #ff4b2b);
+  list-style-type: none;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  /* Add styling for your logo */
+  flex: 0 0 auto; /* Prevent the logo from growing or shrinking */
+  margin-right: 20px; /* Add some spacing between the logo and the navigation */
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+@media (hover) {
+  .list li:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
+  }
+}
+
+/* Media queries for adjusting font size and spacing for different screen sizes */
+@media (max-width: 991px) {
+  /* Styles for tablets and smaller screens */
+  .nav-menu ul li a {
+    font-size: 14px; /* Reduce font size for smaller screens */
+    padding: 8px 12px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 767px) {
+  /* Styles for mobile devices */
+  .nav-menu ul li a {
+    font-size: 12px; /* Further reduce font size for mobile devices */
+    padding: 6px 10px; /* Further adjust padding for mobile devices */
+  }
+}
+
+@media (max-width: 767px) {
+  /* Styles for mobile devices */
+  .header {
+    padding: 10px;
+  }
+
+  .nav-menu {
+    display: none; /* Hide the navigation menu by default */
+  }
+
+  .nav-menu.active {
+    display: block; /* Display the navigation menu when active */
+  }
+}
+
+.list li:hover {
+  background: #5db11e; /* Change background color on hover */
+}
+nav ul {
+  font-weight: bolder;
+  list-style-type: none;
+  display: flex;
+  gap: 4.9px;
+  padding-left: 331px;
+}
+
+nav ul li {
+  font-weight: bolder;
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-size-adjust: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 16px;
+  color: inherit;
+  border: 2px solid transparent;
+  cursor: pointer;
+
+  color: white;
+  text-decoration: none;
+  border-block: solid white;
+  padding: 6px 12px;
+  text-overflow: clip;
+  font-size: 17px;
+  transition: all 0.5s ease-in;
+}
+
+section {
+  padding: 120px;
+}
+
+footer {
+  background-color: rgb(98, 30, 30);
+  color: #fff;
+  text-align: center;
+  padding: 10px 5% 10px 5%;
+}
+
+.i001 {
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px 0px rgba(255, 245, 55, 0.5),
+    0 6px 20px 0 rgba(249, 3, 3, 0.5);
+  color: #090e1a;
+  font-weight: bolder;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: rgb(255, 230, 43, 0.9);
+
+  display: inline-block;
+  justify-content: center;
+  padding: 10px 5% 10px 5%;
+}
+.recruith1 h1 {
+  text-align: center;
+  justify-content: center;
+}
+
+.welcome-center {
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.button1 {
+  background-color: #493fe5;
+  color: #fff;
+}
+.button1:hover {
+  background-color: #3a30c9;
+  color: #fff;
+}
+.button2 {
+  background-color: #0f172a;
+  color: #fff;
+}
+.button2:hover {
+  background-color: #090e1a;
+  color: #fff;
+}
+.border-radius {
+  border-radius: 10px;
+}
+.box1 {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+#i7m08s {
+  margin: auto;
+  max-width: 100%; /* Adjust the max-width as needed */
+}
+
+.section-title h2 {
+  /*background-color: #ffe23d;*/
+  font-size: 2.5rem; /* Adjust font size as needed */
+  color: #fff; /* Change the color as per your design */
+  text-align: center;
+  margin-bottom: 20px; /* Adjust margin as needed */
+  padding: auto;
+  display: inline-block;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: -0.06em;
+}
+.unbeatable {
+  display: inline-flexbox;
+  background-color: #090e1a;
+  padding: auto;
+  text-align: center;
+  justify-content: center;
+}
+.section-title p {
+  font-weight: bold;
+
+  padding: auto;
+  font-size: 1.2rem; /* Adjust font size as needed */
+  color: #fff; /* Change the color as per your design */
+  text-align: center;
+  display: inline-block;
+}
+
+.logo-with-info {
+  display: flex;
+  align-items: center;
+}
+
+.logo-with-info img {
+  width: 190px; /* Adjust width as needed */
+  height: auto;
+  margin-right: 10px; /* Add spacing between logo and text */
+}
+
+.logo-with-info::after {
+  content: "|";
+  display: flex;
+  line-height: 6;
+  background-color: #ffe23d;
+  width: 3px;
+  height: 100%;
+}
+
+.info-list {
+  list-style-type: none; /* Remove list pointer */
+  padding: 10;
+}
+
+.info-list li {
+  margin-bottom: 0px; /* Add spacing between list items */
+}
+
+.info-list li span {
+  font-size: 20px; /* Adjust font size as needed */
+  color: #ffe23d; /* Set text color */
+  font-weight: bold;
+}
+
+.course-card h2 {
+  background-color: rgba(250, 250, 59, 0.9);
+}
+
+.login-form h2 {
+  justify-content: center;
+  color: #fff;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(106, 31, 21, 0.9);
+}
+.login-form {
+  justify-content: center;
+  text-align: center;
+}
+.form-layout {
+  background-color: #ffe23d;
+  position: relative;
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  justify-content: center;
+}
+.contact-card {
+  background-color: rgba(255, 204, 53, 0.944);
+  width: 70%;
+  margin: auto;
+}
+
+.contact-card {
+  list-style-type: none; /* Remove list pointer */
+  padding: 10px;
+  justify-content: center;
+  text-align: justify;
+}
+.contact-card li span {
+  font-size: 20px; /* Adjust font size as needed */
+  color: #010101; /* Set text color */
+  font-weight: bold;
+}
+
+/*
+  width: 1px;
+  height: 100%;
+  background-color: #ffe23d;
+ margin-left: 20px; */
